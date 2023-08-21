@@ -1,6 +1,6 @@
 package ru.netology.service;
 
-import org.testing.annotations.Test;
+import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
@@ -8,7 +8,7 @@ public class CashBackHackerServiceTest {
 
     CashBackHackerService service = new CashBackHackerService();
 
-    @org.testing.annotations.Test
+    @org.testng.annotations.Test
     public void ifAmount900() {
         assertEquals(service.remain(900), 100);
     }
